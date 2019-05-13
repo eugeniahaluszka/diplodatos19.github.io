@@ -173,10 +173,14 @@
               </div>
             </div>
 
-            <h3>Analizamos Algunas Variables y los valores que pueden tomar</h3>
-
-            <div id="chart">
+            <p>
+              Se observa que el tipo de alerta más frecuente fue el de observación principalmente en la sucursal 1, siguiendole en la misma sucursal una baja calificación. Con respecto a la sucursal 2 muestra el mismo comportamiento con los tipos de alerta, solo que en menor densidad.
+            </p>
+            <div id="chart_hm">
             </div>
+            <p>
+              Dentro de la categoría "Varios" se observa que los tipos de alerta que se colocan con más frecuencia son observación y baja calificación. En la categoría de asesoramiento también se observa que "observación" es seleccionado con mayor frecuencia.
+            </p>
       </div>  
         
 
@@ -197,7 +201,7 @@
   const colors = ['#33b2df', '#546E7A', '#d4526e', '#13d8aa', '#A5978B', '#2b908f', '#f9a3a4', '#90ee7e', '#f48024', '#69d2e7']
   //let chart = get_bar_chart("#chart", Object.values(rango_satif_inicial), Object.keys(rango_satif_inicial), colors, "Satisfacción Inicial", "rango de valores")
   const hm_colors = ["#008FFB"]
-  let chart = get_heatmap_chart("#chart", normalize_heatmap(heatmap_suc_alerta), hm_colors, "Sucursal y tipo de alerta")
+  let chart = get_heatmap_chart("#chart_hm", normalize_heatmap(alerta_categoria), hm_colors, "Sucursal y tipo de alerta")
   chart.render()
 
 
