@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body class="grey lighten-3">
+  <nav class="white navbar-fixed" role="navigation">
+    <div class="nav-wrapper">
+        
+      <img  src="img/logoFaMAF.png" style="max-height: 100%;" >
+      <a id="logo-container" href="#" class="brand-logo grey-text text-darken-4 center">Análisis y Visualización de Datos</a>
+      <span class="right grey-text text-darken-4">Diplo datos</span>
+      
+      
+    </div>
+  </nav>
+
+
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+
+      </div>
+    </div>
+    <div class="parallax"><img src="img/bg.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+  <div class="container">
+    
+
+    <div class="card">
+      <div class="card-panel">
+          <h5>Usuarios de automotrices</h5>
+            <h3 class="center-align">
+              Resultados de las encuestas de satisfacción 2018
+            </h3>
+            <div class="divider"></div>
+
+            <p> El Dataset describe encuestas de satisfacción realizadas por automotrices a sus usuarios luego de prestado un servicio. El mismo fue elaborado por el área de calidad y cada registro contiene la información concerniente a una encuesta telefónica que ha generado una “alerta de calidad”, incluyendo también el texto de los diálogos entre las partes.</p>
+            <p> Contamos con más de 11 mil registros, brindando información sobre la encuesta en sí, sobre la alerta generada y su gestión, y sobre el servicio bajo análisis</p>
+            <div class="row">
+              <div  style="overflow-x:auto;">
+                  <table  class="responsive-table highlight">
+                      <thead>
+                        <tr >
+                          <th></th>
+                          <th>MARCA</th>
+                          <th>FECHA ALERTA</th>
+                          <th>FECHA VENCIMIENTO</th>
+                          <th>Mes</th>
+                          <th>Tipo de Alerta</th>
+                          <th>STATUS</th>
+                          <th>PLAZO DE GESTION</th>
+                          <th>SUCURSAL</th>
+                          <th>CANAL</th>
+                          <th>...</th>
+                          <th>VEHÍCULO</th>
+                          <th>Satisfaccion INICIAL</th>
+                          <th>Recomendacion
+                    INICIAL</th>
+                          <th>Incidente o Retorno INICIAL</th>
+                          <th>CATEGORIA</th>
+                          <th>CAUSAS</th>
+                          <th>PUESTO INVOLUCRADO</th>
+                          <th>Tiempo de respuesta (dias)</th>
+                          <th>ESTADO</th>
+                          <th>Resp. Alerta</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th>1</th>
+                          <td>Marca 1</td>
+                          <td>2018-08-03</td>
+                          <td>2018-08-07</td>
+                          <td>Agosto</td>
+                          <td>BAJA CALIFICACION E INCIDENTE</td>
+                          <td>GESTIONADO</td>
+                          <td>A TIEMPO</td>
+                          <td>Sucursal 1</td>
+                          <td>PA</td>
+                          <td>...</td>
+                          <td>d24c84ff9ca17bebbf71b7a636f7763d</td>
+                          <td>4</td>
+                          <td>4</td>
+                          <td>SI</td>
+                          <td>Asesoramiento</td>
+                          <td>Omisión/error en la sucripcion o en la venta, ...</td>
+                          <td>Adjudicados</td>
+                          <td>3</td>
+                          <td>NO REVERTIDO</td>
+                          <td>Responsable 1</td>
+                        </tr>
+                        <tr>
+                          <th>2</th>
+                          <td>Marca 1</td>
+                          <td>2018-08-03</td>
+                          <td>2018-08-07</td>
+                          <td>Agosto</td>
+                          <td>INCIDENTE</td>
+                          <td>GESTIONADO</td>
+                          <td>FUERA DE PLAZO</td>
+                          <td>Sucursal 2</td>
+                          <td>PA</td>
+                          <td>...</td>
+                          <td>27803fa5f47b2aee076580a85c8a7625</td>
+                          <td>10</td>
+                          <td>10</td>
+                          <td>SI</td>
+                          <td>Varios</td>
+                          <td>Asesoramiento: Omisión/error en la sucripcion ...</td>
+                          <td>Ventas</td>
+                          <td>10</td>
+                          <td>EN PROCESO</td>
+                          <td>Responsable 2</td>
+                        </tr>
+                        <tr>
+                          <th>3</th>
+                          <td>Marca 1</td>
+                          <td>2018-08-03</td>
+                          <td>2018-08-06</td>
+                          <td>Agosto</td>
+                          <td>OBSERVACION</td>
+                          <td>GESTIONADO</td>
+                          <td>A TIEMPO</td>
+                          <td>Sucursal 2</td>
+                          <td>PA</td>
+                          <td>...</td>
+                          <td>NaN</td>
+                          <td>10</td>
+                          <td>9</td>
+                          <td>NO</td>
+                          <td>Asesoramiento</td>
+                          <td>Facturacion</td>
+                          <td>Entrega Administrativa</td>
+                          <td>3</td>
+                          <td>REVERTIDO</td>
+                          <td>Responsable 3</td>
+                        </tr>
+                        <tr>
+                          <th>4</th>
+                          <td>Marca 1</td>
+                          <td>2018-08-03</td>
+                          <td>2018-08-06</td>
+                          <td>Agosto</td>
+                          <td>OBSERVACION</td>
+                          <td>GESTIONADO</td>
+                          <td>FUERA DE PLAZO</td>
+                          <td>Sucursal 3</td>
+                          <td>PA</td>
+                          <td>...</td>
+                          <td>f7f1bc08d91ee74ba7c6cd0f3680863b</td>
+                          <td>9</td>
+                          <td>9</td>
+                          <td>NO</td>
+                          <td>Varios</td>
+                          <td>Disconformidad con el Fabricante:Disponibilida...</td>
+                          <td>Adjudicados</td>
+                          <td>4</td>
+                          <td>REVERTIDO</td>
+                          <td>Responsable 1</td>
+                        </tr>
+                      </tbody>
+                  </table>
+              </div>
+            </div>
+
+            <h3>Analizamos Algunas Variables y los valores que pueden tomar</h3>
+
+            <div id="chart">
+            </div>
+      </div>  
+        
+
+
+    </div>
+
+  </div>
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+<script src="js/graphs.js"></script>
+<script src="js/data.js"></script>
+<script>
+
+  const colors = ['#33b2df', '#546E7A', '#d4526e', '#13d8aa', '#A5978B', '#2b908f', '#f9a3a4', '#90ee7e', '#f48024', '#69d2e7']
+  let chart = get_bar_chart("#chart", Object.values(rango_satif_inicial), Object.keys(rango_satif_inicial), colors, "Satisfacción Inicial", "rango de valores")
+  chart.render()
+
+</script>
+
+
+  </body>
+</html>
