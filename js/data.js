@@ -139,3 +139,63 @@ const fdp_categoria = {
 	"Otros": 0.0001,
 	"Atención a clientes": 0.0001
 }
+
+
+let heatmap_suc_alerta = {
+    "baja calificacion": {
+        "Sucursal 1": 2524,
+        "Sucursal 2": 406,
+        "Sucursal 3": 222,
+        "Sucursal 4": 28,
+        "Sucursal 5": 1
+    },
+    "baja calificacion e incidente": {
+        "Sucursal 1": 373,
+        "Sucursal 2": 85,
+        "Sucursal 3": 57,
+        "Sucursal 4": 14,
+        "Sucursal 5": 0
+    },
+    "baja calificacion y posible retorno": {
+        "Sucursal 1": 150,
+        "Sucursal 2": 30,
+        "Sucursal 3": 21,
+        "Sucursal 4": 0,
+        "Sucursal 5": 0
+    },
+    "baja calificacion y retorno": {
+        "Sucursal 1": 767,
+        "Sucursal 2": 175,
+        "Sucursal 3": 63,
+        "Sucursal 4": 0,
+        "Sucursal 5": 0
+    },
+    "incidente": {
+        "Sucursal 1": 249,
+        "Sucursal 2": 72,
+        "Sucursal 3": 29,
+        "Sucursal 4": 15,
+        "Sucursal 5": 0
+    },
+    "informativa": {
+        "Sucursal 1": 210,
+        "Sucursal 2": 54,
+        "Sucursal 3": 28,
+        "Sucursal 4": 7,
+        "Sucursal 5": 2
+    },
+    "observacion": {
+        "Sucursal 1": 3999,
+        "Sucursal 2": 1055,
+        "Sucursal 3": 433,
+        "Sucursal 4": 70,
+        "Sucursal 5": 2
+    },
+    "posible retorno": {
+        "Sucursal 1": 2,
+        "Sucursal 2": 0,
+        "Sucursal 3": 0,
+        "Sucursal 4": 0,
+        "Sucursal 5": 0
+    }
+}

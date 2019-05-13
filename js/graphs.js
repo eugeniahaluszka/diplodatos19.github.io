@@ -76,3 +76,57 @@ function get_bar_chart(el_id, x, y, colors, title=null, subtitle=null) {
     return chart
 
 }
+
+
+
+function obj2pair(_obj) {
+    let result = []
+    for (const key in _obj) {
+        if (_obj.hasOwnProperty(key)) {
+            const element = _obj[key];
+            const r = {x: key, y: element}
+            result.push(r)
+            
+        }
+    }
+    return result
+}
+
+function normalize_heatmap(_obj){
+    let result = []
+    for (const key in _obj) {
+        if (_obj.hasOwnProperty(key)) {
+            const r = {name: key,
+                       data: obj2pair(_obj[key])}
+            result.push(r)
+        }
+    }
+    return result
+}
+
+
+function get_heatmap_chart(el_id, series, colors, title) {
+    let options = {
+        chart: {
+            height: 350,
+            type: 'heatmap',
+        },
+        dataLabels: {
+            enabled: false
+        },
+        colors: colors,
+        series: series,
+        title: {
+            text: title
+        },
+
+    }
+
+    var chart = new ApexCharts(
+        document.querySelector(el_id),
+        options
+    );
+
+    return chart
+
+}
