@@ -196,7 +196,7 @@
 
   const colors = ['#33b2df', '#546E7A', '#d4526e', '#13d8aa', '#A5978B', '#2b908f', '#f9a3a4', '#90ee7e', '#f48024', '#69d2e7']
   //let chart = get_bar_chart("#chart", Object.values(rango_satif_inicial), Object.keys(rango_satif_inicial), colors, "Satisfacción Inicial", "rango de valores")
-
+  const hm_colors = ["#008FFB"]
   let chart = get_heatmap_chart("#chart", normalize_heatmap(heatmap_suc_alerta), colors, "Sucursal y tipo de alerta")
   chart.render()
 
