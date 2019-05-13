@@ -84,11 +84,12 @@ function obj2pair(_obj) {
     for (const key in _obj) {
         if (_obj.hasOwnProperty(key)) {
             const element = _obj[key];
-            const r = {x: key, y: element}
+            const r = {y: key, x: element}
             result.push(r)
             
         }
     }
+    console.log(result)
     return result
 }
 
