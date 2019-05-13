@@ -204,12 +204,12 @@
   //let chart = get_bar_chart("#chart", Object.values(rango_satif_inicial), Object.keys(rango_satif_inicial), colors, "Satisfacción Inicial", "rango de valores")
   const hm_colors = ["#008FFB"]
   
-  let chart = get_heatmap_chart("#chart_heatmap_suc_alerta", normalize_heatmap(heatmap_suc_alerta), hm_colors, "Sucursal y tipo de alerta")
-  chart.render()
+  let chart_heatmap_suc_alerta = get_heatmap_chart("#chart_heatmap_suc_alerta", normalize_heatmap(heatmap_suc_alerta), hm_colors, "Sucursal y tipo de alerta")
+  chart_heatmap_suc_alerta.render()
 
 
-  let chart = get_heatmap_chart("#chart_heatmap_alerta_categoria", normalize_heatmap(alerta_categoria), hm_colors, "Sucursal y tipo de alerta")
-  chart.render()
+  let chart_heatmap_alerta_categoria = get_heatmap_chart("#chart_heatmap_alerta_categoria", normalize_heatmap(alerta_categoria), hm_colors, "Sucursal y tipo de alerta")
+  chart_heatmap_alerta_categoria.render()
 
 
 
