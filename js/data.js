@@ -202,474 +202,334 @@ let heatmap_suc_alerta = {
 
 
 let alerta_categoria = {
-	"Accesorios": {
-		"baja calificacion": 13,
-		"baja calificacion e incidente": 5,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 25,
-		"informativa": 1,
-		"observacion": 68,
-		"posible retorno": 0
-	},
-	"Asesoramiento": {
-		"baja calificacion": 469,
-		"baja calificacion e incidente": 65,
-		"baja calificacion y posible retorno": 1,
-		"baja calificacion y retorno": 25,
-		"incidente": 41,
-		"informativa": 127,
-		"observacion": 1393,
-		"posible retorno": 1
-	},
-	"Atención a clientes": {
-		"baja calificacion": 0,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 0,
-		"observacion": 1,
-		"posible retorno": 0
-	},
-	"Comunicación": {
-		"baja calificacion": 23,
-		"baja calificacion e incidente": 2,
-		"baja calificacion y posible retorno": 1,
-		"baja calificacion y retorno": 2,
-		"incidente": 2,
-		"informativa": 1,
-		"observacion": 76,
-		"posible retorno": 0
-	},
-	"Condiciones Comerciales": {
-		"baja calificacion": 2,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 0,
-		"observacion": 2,
-		"posible retorno": 0
-	},
-	"Condiciones Generales": {
-		"baja calificacion": 12,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 1,
-		"baja calificacion y retorno": 0,
-		"incidente": 1,
-		"informativa": 1,
-		"observacion": 29,
-		"posible retorno": 0
-	},
-	"Condiciones de Atención del Personal": {
-		"baja calificacion": 5,
-		"baja calificacion e incidente": 1,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 1,
-		"observacion": 9,
-		"posible retorno": 0
-	},
-	"Condiciones de atención del personal": {
-		"baja calificacion": 23,
-		"baja calificacion e incidente": 3,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 1,
-		"incidente": 1,
-		"informativa": 3,
-		"observacion": 59,
-		"posible retorno": 0
-	},
-	"Condiciones de entrega": {
-		"baja calificacion": 0,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 1,
-		"informativa": 0,
-		"observacion": 2,
-		"posible retorno": 0
-	},
-	"Condiciones generales": {
-		"baja calificacion": 24,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 5,
-		"incidente": 1,
-		"informativa": 6,
-		"observacion": 43,
-		"posible retorno": 0
-	},
-	"Demoras en la Atención": {
-		"baja calificacion": 18,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 4,
-		"informativa": 1,
-		"observacion": 19,
-		"posible retorno": 0
-	},
-	"Demoras en la atencion": {
-		"baja calificacion": 0,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 0,
-		"observacion": 1,
-		"posible retorno": 0
-	},
-	"Demoras en la atención": {
-		"baja calificacion": 49,
-		"baja calificacion e incidente": 1,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 9,
-		"informativa": 4,
-		"observacion": 79,
-		"posible retorno": 0
-	},
-	"Disconformidad con el Fabricante": {
-		"baja calificacion": 43,
-		"baja calificacion e incidente": 2,
-		"baja calificacion y posible retorno": 1,
-		"baja calificacion y retorno": 9,
-		"incidente": 1,
-		"informativa": 3,
-		"observacion": 77,
-		"posible retorno": 0
-	},
-	"Disconformidad con el fabricante": {
-		"baja calificacion": 219,
-		"baja calificacion e incidente": 1,
-		"baja calificacion y posible retorno": 9,
-		"baja calificacion y retorno": 48,
-		"incidente": 3,
-		"informativa": 39,
-		"observacion": 517,
-		"posible retorno": 0
-	},
-	"Elemento de Entrega Diferenciada": {
-		"baja calificacion": 0,
-		"baja calificacion e incidente": 2,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 1,
-		"observacion": 10,
-		"posible retorno": 0
-	},
-	"Elemento de entrega diferenciada": {
-		"baja calificacion": 0,
-		"baja calificacion e incidente": 1,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 2,
-		"informativa": 0,
-		"observacion": 23,
-		"posible retorno": 0
-	},
-	"Error de Facturación": {
-		"baja calificacion": 2,
-		"baja calificacion e incidente": 1,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 1,
-		"incidente": 3,
-		"informativa": 0,
-		"observacion": 19,
-		"posible retorno": 0
-	},
-	"Expectativas Altas del Cliente": {
-		"baja calificacion": 45,
-		"baja calificacion e incidente": 1,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 1,
-		"informativa": 0,
-		"observacion": 2,
-		"posible retorno": 0
-	},
-	"Expectativas Cliente": {
-		"baja calificacion": 1,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 0,
-		"observacion": 0,
-		"posible retorno": 0
-	},
-	"Expectativas altas del cliente": {
-		"baja calificacion": 120,
-		"baja calificacion e incidente": 5,
-		"baja calificacion y posible retorno": 1,
-		"baja calificacion y retorno": 4,
-		"incidente": 2,
-		"informativa": 0,
-		"observacion": 4,
-		"posible retorno": 0
-	},
-	"Expectativas altas del cliente\n": {
-		"baja calificacion": 1,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 0,
-		"observacion": 0,
-		"posible retorno": 0
-	},
-	"Experiencia previa negativa": {
-		"baja calificacion": 0,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 1,
-		"observacion": 1,
-		"posible retorno": 0
-	},
-	"Explicaciones insuficientes": {
-		"baja calificacion": 1,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 0,
-		"observacion": 1,
-		"posible retorno": 0
-	},
-	"Facilidad para Comunicarse": {
-		"baja calificacion": 3,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 0,
-		"observacion": 6,
-		"posible retorno": 0
-	},
-	"Facilidad para comunicarse": {
-		"baja calificacion": 11,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 0,
-		"observacion": 30,
-		"posible retorno": 0
-	},
-	"Faltante de objetos personales": {
-		"baja calificacion": 1,
-		"baja calificacion e incidente": 1,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 1,
-		"incidente": 0,
-		"informativa": 0,
-		"observacion": 5,
-		"posible retorno": 0
-	},
-	"Incumplimiento de promesas": {
-		"baja calificacion": 0,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 2,
-		"observacion": 0,
-		"posible retorno": 0
-	},
-	"Instalaciones": {
-		"baja calificacion": 12,
-		"baja calificacion e incidente": 1,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 1,
-		"informativa": 6,
-		"observacion": 44,
-		"posible retorno": 0
-	},
-	"Lavado": {
-		"baja calificacion": 32,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 16,
-		"observacion": 170,
-		"posible retorno": 0
-	},
-	"No tiene": {
-		"baja calificacion": 3,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 0,
-		"observacion": 11,
-		"posible retorno": 0
-	},
-	"Nueva consulta y/o Pedido": {
-		"baja calificacion": 0,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 0,
-		"observacion": 2,
-		"posible retorno": 0
-	},
-	"Omisión / error en la información": {
-		"baja calificacion": 0,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 12,
-		"observacion": 4,
-		"posible retorno": 0
-	},
-	"Otros": {
-		"baja calificacion": 0,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 0,
-		"observacion": 1,
-		"posible retorno": 0
-	},
-	"Problemas de Gestoría": {
-		"baja calificacion": 3,
-		"baja calificacion e incidente": 3,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 3,
-		"informativa": 1,
-		"observacion": 17,
-		"posible retorno": 0
-	},
-	"Problemas de gestoría": {
-		"baja calificacion": 13,
-		"baja calificacion e incidente": 1,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 5,
-		"informativa": 1,
-		"observacion": 63,
-		"posible retorno": 0
-	},
-	"Problemas en la Entrega": {
-		"baja calificacion": 3,
-		"baja calificacion e incidente": 2,
-		"baja calificacion y posible retorno": 1,
-		"baja calificacion y retorno": 0,
-		"incidente": 1,
-		"informativa": 0,
-		"observacion": 13,
-		"posible retorno": 0
-	},
-	"Problemas en la entrega": {
-		"baja calificacion": 2,
-		"baja calificacion e incidente": 2,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 1,
-		"incidente": 12,
-		"informativa": 4,
-		"observacion": 27,
-		"posible retorno": 0
-	},
-	"Reclamos al Taller": {
-		"baja calificacion": 38,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 2,
-		"baja calificacion y retorno": 39,
-		"incidente": 0,
-		"informativa": 0,
-		"observacion": 77,
-		"posible retorno": 0
-	},
-	"Reclamos al taller": {
-		"baja calificacion": 188,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 28,
-		"baja calificacion y retorno": 263,
-		"incidente": 0,
-		"informativa": 7,
-		"observacion": 421,
-		"posible retorno": 0
-	},
-	"Repuestos": {
-		"baja calificacion": 0,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 1,
-		"observacion": 2,
-		"posible retorno": 0
-	},
-	"Turnos": {
-		"baja calificacion": 14,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 3,
-		"incidente": 1,
-		"informativa": 4,
-		"observacion": 176,
-		"posible retorno": 0
-	},
-	"VARIOS": {
-		"baja calificacion": 52,
-		"baja calificacion e incidente": 20,
-		"baja calificacion y posible retorno": 7,
-		"baja calificacion y retorno": 22,
-		"incidente": 10,
-		"informativa": 0,
-		"observacion": 64,
-		"posible retorno": 0
-	},
-	"Varios": {
-		"baja calificacion": 1727,
-		"baja calificacion e incidente": 396,
-		"baja calificacion y posible retorno": 149,
-		"baja calificacion y retorno": 581,
-		"incidente": 174,
-		"informativa": 58,
-		"observacion": 1792,
-		"posible retorno": 1
-	},
-	"Vehículo Entregado en Malas Condiciones": {
-		"baja calificacion": 2,
-		"baja calificacion e incidente": 2,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 9,
-		"informativa": 0,
-		"observacion": 31,
-		"posible retorno": 0
-	},
-	"Vehículo Entregado en Malas Condiciones\n": {
-		"baja calificacion": 0,
-		"baja calificacion e incidente": 0,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 0,
-		"informativa": 0,
-		"observacion": 1,
-		"posible retorno": 0
-	},
-	"Vehículo entregado en malas condiciones": {
-		"baja calificacion": 7,
-		"baja calificacion e incidente": 11,
-		"baja calificacion y posible retorno": 0,
-		"baja calificacion y retorno": 0,
-		"incidente": 52,
-		"informativa": 0,
-		"observacion": 166,
-		"posible retorno": 0
-	}
+    "-": {
+        "baja calificacion": 0,
+        "baja calificacion e incidente": 0,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 0,
+        "informativa": 0,
+        "observacion": 1,
+        "posible retorno": 0
+    },
+    "accesorios": {
+        "baja calificacion": 13,
+        "baja calificacion e incidente": 5,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 25,
+        "informativa": 1,
+        "observacion": 68,
+        "posible retorno": 0
+    },
+    "asesoramiento": {
+        "baja calificacion": 469,
+        "baja calificacion e incidente": 65,
+        "baja calificacion y posible retorno": 1,
+        "baja calificacion y retorno": 25,
+        "incidente": 41,
+        "informativa": 127,
+        "observacion": 1393,
+        "posible retorno": 1
+    },
+    "atencion a clientes": {
+        "baja calificacion": 0,
+        "baja calificacion e incidente": 0,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 0,
+        "informativa": 0,
+        "observacion": 1,
+        "posible retorno": 0
+    },
+    "comunicacion": {
+        "baja calificacion": 23,
+        "baja calificacion e incidente": 2,
+        "baja calificacion y posible retorno": 1,
+        "baja calificacion y retorno": 2,
+        "incidente": 2,
+        "informativa": 1,
+        "observacion": 76,
+        "posible retorno": 0
+    },
+    "condiciones comerciales": {
+        "baja calificacion": 2,
+        "baja calificacion e incidente": 0,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 0,
+        "informativa": 0,
+        "observacion": 2,
+        "posible retorno": 0
+    },
+    "condiciones de atencion del personal": {
+        "baja calificacion": 28,
+        "baja calificacion e incidente": 4,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 1,
+        "incidente": 1,
+        "informativa": 4,
+        "observacion": 68,
+        "posible retorno": 0
+    },
+    "condiciones de entrega": {
+        "baja calificacion": 0,
+        "baja calificacion e incidente": 0,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 1,
+        "informativa": 0,
+        "observacion": 2,
+        "posible retorno": 0
+    },
+    "condiciones generales": {
+        "baja calificacion": 36,
+        "baja calificacion e incidente": 0,
+        "baja calificacion y posible retorno": 1,
+        "baja calificacion y retorno": 5,
+        "incidente": 2,
+        "informativa": 7,
+        "observacion": 72,
+        "posible retorno": 0
+    },
+    "demoras en la atencion": {
+        "baja calificacion": 67,
+        "baja calificacion e incidente": 1,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 13,
+        "informativa": 5,
+        "observacion": 99,
+        "posible retorno": 0
+    },
+    "disconformidad con el fabricante": {
+        "baja calificacion": 262,
+        "baja calificacion e incidente": 3,
+        "baja calificacion y posible retorno": 10,
+        "baja calificacion y retorno": 57,
+        "incidente": 4,
+        "informativa": 42,
+        "observacion": 594,
+        "posible retorno": 0
+    },
+    "elemento de entrega diferenciada": {
+        "baja calificacion": 0,
+        "baja calificacion e incidente": 3,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 2,
+        "informativa": 1,
+        "observacion": 33,
+        "posible retorno": 0
+    },
+    "error de facturacion": {
+        "baja calificacion": 2,
+        "baja calificacion e incidente": 1,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 1,
+        "incidente": 3,
+        "informativa": 0,
+        "observacion": 19,
+        "posible retorno": 0
+    },
+    "expectativas altas del cliente": {
+        "baja calificacion": 166,
+        "baja calificacion e incidente": 6,
+        "baja calificacion y posible retorno": 1,
+        "baja calificacion y retorno": 4,
+        "incidente": 3,
+        "informativa": 0,
+        "observacion": 6,
+        "posible retorno": 0
+    },
+    "expectativas cliente": {
+        "baja calificacion": 1,
+        "baja calificacion e incidente": 0,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 0,
+        "informativa": 0,
+        "observacion": 0,
+        "posible retorno": 0
+    },
+    "experiencia previa negativa": {
+        "baja calificacion": 0,
+        "baja calificacion e incidente": 0,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 0,
+        "informativa": 1,
+        "observacion": 1,
+        "posible retorno": 0
+    },
+    "explicaciones insuficientes": {
+        "baja calificacion": 1,
+        "baja calificacion e incidente": 0,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 0,
+        "informativa": 0,
+        "observacion": 1,
+        "posible retorno": 0
+    },
+    "facilidad para comunicarse": {
+        "baja calificacion": 14,
+        "baja calificacion e incidente": 0,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 0,
+        "informativa": 0,
+        "observacion": 36,
+        "posible retorno": 0
+    },
+    "faltante de objetos personales": {
+        "baja calificacion": 1,
+        "baja calificacion e incidente": 1,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 1,
+        "incidente": 0,
+        "informativa": 0,
+        "observacion": 5,
+        "posible retorno": 0
+    },
+    "incumplimiento de promesas": {
+        "baja calificacion": 0,
+        "baja calificacion e incidente": 0,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 0,
+        "informativa": 2,
+        "observacion": 0,
+        "posible retorno": 0
+    },
+    "instalaciones": {
+        "baja calificacion": 12,
+        "baja calificacion e incidente": 1,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 1,
+        "informativa": 6,
+        "observacion": 44,
+        "posible retorno": 0
+    },
+    "lavado": {
+        "baja calificacion": 32,
+        "baja calificacion e incidente": 0,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 0,
+        "informativa": 16,
+        "observacion": 170,
+        "posible retorno": 0
+    },
+    "no tiene": {
+        "baja calificacion": 3,
+        "baja calificacion e incidente": 0,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 0,
+        "informativa": 0,
+        "observacion": 11,
+        "posible retorno": 0
+    },
+    "nueva consulta y/o pedido": {
+        "baja calificacion": 0,
+        "baja calificacion e incidente": 0,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 0,
+        "informativa": 0,
+        "observacion": 2,
+        "posible retorno": 0
+    },
+    "omision / error en la informacion": {
+        "baja calificacion": 0,
+        "baja calificacion e incidente": 0,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 0,
+        "informativa": 12,
+        "observacion": 4,
+        "posible retorno": 0
+    },
+    "otros": {
+        "baja calificacion": 0,
+        "baja calificacion e incidente": 0,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 0,
+        "informativa": 0,
+        "observacion": 1,
+        "posible retorno": 0
+    },
+    "problemas de gestoría": {
+        "baja calificacion": 16,
+        "baja calificacion e incidente": 4,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 8,
+        "informativa": 2,
+        "observacion": 80,
+        "posible retorno": 0
+    },
+    "problemas en la entrega": {
+        "baja calificacion": 5,
+        "baja calificacion e incidente": 4,
+        "baja calificacion y posible retorno": 1,
+        "baja calificacion y retorno": 1,
+        "incidente": 13,
+        "informativa": 4,
+        "observacion": 40,
+        "posible retorno": 0
+    },
+    "reclamos al taller": {
+        "baja calificacion": 226,
+        "baja calificacion e incidente": 0,
+        "baja calificacion y posible retorno": 30,
+        "baja calificacion y retorno": 302,
+        "incidente": 0,
+        "informativa": 7,
+        "observacion": 498,
+        "posible retorno": 0
+    },
+    "repuestos": {
+        "baja calificacion": 0,
+        "baja calificacion e incidente": 0,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 0,
+        "informativa": 1,
+        "observacion": 2,
+        "posible retorno": 0
+    },
+    "turnos": {
+        "baja calificacion": 14,
+        "baja calificacion e incidente": 0,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 3,
+        "incidente": 1,
+        "informativa": 4,
+        "observacion": 176,
+        "posible retorno": 0
+    },
+    "varios": {
+        "baja calificacion": 1779,
+        "baja calificacion e incidente": 416,
+        "baja calificacion y posible retorno": 156,
+        "baja calificacion y retorno": 603,
+        "incidente": 184,
+        "informativa": 58,
+        "observacion": 1856,
+        "posible retorno": 1
+    },
+    "vehículo entregado en malas condiciones": {
+        "baja calificacion": 9,
+        "baja calificacion e incidente": 13,
+        "baja calificacion y posible retorno": 0,
+        "baja calificacion y retorno": 0,
+        "incidente": 61,
+        "informativa": 0,
+        "observacion": 198,
+        "posible retorno": 0
+    }
 }
