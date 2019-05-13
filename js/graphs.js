@@ -109,7 +109,7 @@ function normalize_heatmap(_obj){
 function get_heatmap_chart(el_id, series, colors, title) {
     let options = {
         chart: {
-            height: 350,
+            height: 800,
             type: 'heatmap',
         },
         dataLabels: {
