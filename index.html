@@ -187,6 +187,8 @@
             <div id="chart_heatmap_alerta_categoria">
             </div>
 
+
+            <h3>Distribución de frecuencia de alertas por mes</h3>
             <div id="chart_rango_mes">
             </div>
       </div>  
@@ -219,8 +221,8 @@
 
   let chart_heatmap_alerta_categoria = get_heatmap_chart("#chart_heatmap_alerta_categoria", normalize_heatmap(alerta_categoria), hm_colors, "Categoria y tipo de alerta")
   chart_heatmap_alerta_categoria.render()
-
-  let chart_rango_mes = get_bar_chart("#chart_rango_mes", Object.values(rango_mes), Object.keys(rango_mes), hm_colors, title="Incidentes por mes", subtitle="") 
+  
+  let chart_rango_mes = get_bar_chart("#chart_rango_mes", Object.values(rango_mes), Object.keys(rango_mes), hm_colors, title="", subtitle="") 
   chart_rango_mes.render()
 </script>
 
