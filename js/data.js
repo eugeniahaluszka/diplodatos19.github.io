@@ -141,15 +141,15 @@ const fdp_categoria = {
 }
 
 
-let rango_mes = {1: 105,
-	5: 1441,
-	6: 1255,
-	7: 1469,
-	8: 1767,
-	9: 1458,
-	10: 1452,
-	11: 1108,
-	12: 1088
+let rango_mes = {enero: 105, febrero:0, marzo:0, abril:0,
+	mayo: 1441,
+	junio: 1255,
+	julio: 1469,
+	agosto: 1767,
+	septiembre: 1458,
+	octubre: 1452,
+	noviembre: 1108,
+	diciembre: 1088
 }
 let heatmap_suc_alerta = {
     "baja calificacion": {
