@@ -183,6 +183,9 @@
             </p>
             <div id="chart_heatmap_alerta_categoria">
             </div>
+
+            <div id="chart_rango_mes">
+            </div>
       </div>  
         
 
@@ -194,6 +197,9 @@
 <!--  Scripts-->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="https://unpkg.com/chart.js@2.8.0/dist/Chart.bundle.js"></script>
+<script src="https://unpkg.com/chartjs-chart-box-and-violin-plot@2/build/Chart.BoxPlot.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script src="js/materialize.js"></script>
 <script src="js/init.js"></script>
 <script src="js/graphs.js"></script>
@@ -208,11 +214,10 @@
   chart_heatmap_suc_alerta.render()
 
 
-  let chart_heatmap_alerta_categoria = get_heatmap_chart("#chart_heatmap_alerta_categoria", normalize_heatmap(alerta_categoria), hm_colors, "Sucursal y tipo de alerta")
+  let chart_heatmap_alerta_categoria = get_heatmap_chart("#chart_heatmap_alerta_categoria", normalize_heatmap(alerta_categoria), hm_colors, "Categoria y tipo de alerta")
   chart_heatmap_alerta_categoria.render()
 
-
-
+  let chart_rango_mes = get_bar_chart("chart_rango_mes", Object.values(rango_mes), Object.keys(rango_mes), hm_colors, title=null, subtitle=null) 
 </script>
 
 
